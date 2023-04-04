@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Movie from './Movie';
+import MovieList from './Movie';
 import Podcast from './Podcast';
 import Home from './Home';
 import Navibar from './Navibar';
@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/Home" element={<Home />} />
         <Route path="/Podcast" element={<Podcast />} />
-        <Route path="/Movie" element={<Movie />} />
+        <Route path="/Movie" element={<MovieList />} />
       </Routes>
     </BrowserRouter>
   );
